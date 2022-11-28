@@ -48,7 +48,7 @@ struct VFS_FILESYSTEM * vfs_find( int fstype )
 	return fs;
 }
 
-int ahvfs_mount( char * device, char * mountpoint, int fstype )
+int vfs_mount( char * device, char * mountpoint, int fstype )
 {
 	struct VFS_MOUNTPOINT * mount;
 	// create our mountpoint structure
