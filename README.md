@@ -3,6 +3,8 @@
 
 
  Este trabajo es una investigación sobre el sistema operativo NoNameOS (ex AMOS). 
+ 
+ Fork del siguiente proyecto: https://github.com/stephenfewer/NoNameOS/
 
  ## Intrucciones de compilación y ejecución
 
