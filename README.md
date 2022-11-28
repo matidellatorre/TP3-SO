@@ -13,8 +13,10 @@
  2. Crear una imagen Docker con ```docker build -t tp3/nonameos .```
 
  3. Correr la imagen recién creada con ```docker run -v "${PWD}:/root" --privileged -ti tp3/nonameos:latest```
+ 
+ 4. Navegar al directorio del SO con ```cd root/NoNameOS```
 
- 4. Ejecutar los makefiles: ```make lib```, ```make kernel```, ```make apps``` y ```make image```
+ 4. Ejecutar el Makefile con ```make all```
 
  5. Correr el QEMU con ```qemu-system-x86_64 -fda ./bin/NoNameOS.vfd```
 
